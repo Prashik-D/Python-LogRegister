@@ -1,0 +1,9 @@
+
+{% extends 'users/base.html' %}
+{% load static %}
+{% block content %}
+<div class="center">
+    <h1>Thank you for login</h1>
+    <a href="{% url 'logout' %}" class="form-submit">Logout</a>
+</div>
+{% endblock content %}
